@@ -8,8 +8,8 @@
   <link rel="icon" type="image/png" href="logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style-d.css" />
 </head>
 <body>
 
@@ -18,135 +18,166 @@
     <a href="https://experiencias.andyvillarruel.com/origen-yungas">✦ Próximo evento · <strong>ORIGEN Experience · Las Yungas</strong> · 2 y 3 de Mayo 2026 · <span>Reserva tu lugar →</span></a>
   </div>
 
-  <!-- NAV -->
-  <nav class="nav">
-    <span class="nav-logo">Andy Villarruel</span>
-    <div class="nav-links">
-      <a href="#quien">Quién soy</a>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-photo">
+      <img src="andy.jpg" alt="Andy Villarruel" />
+    </div>
+    <h1>Andy Villarruel</h1>
+    <p class="header-title">Coach Business Consciousness</p>
+    <p class="header-sub">Coach Ontológica · Facilitadora en Constelaciones Cuánticas<br>Health Coach · Sanadora en Medicina Energética</p>
+    <div class="header-ctas">
+      <a href="https://experiencias.andyvillarruel.com/api/vcf" download="Andy_Villarruel.vcf" class="btn-wa">↓ Guardar contacto</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://www.facebook.com/advillarruel" target="_blank" rel="noopener" class="social-pill">FB</a>
+      <a href="https://instagram.com/andycoachvital" target="_blank" rel="noopener" class="social-pill">IG</a>
+      <a href="https://www.tiktok.com/@andycoachvital" target="_blank" rel="noopener" class="social-pill">TikTok</a>
+      <a href="https://www.linkedin.com/in/andrea-villarruel-45159b17/" target="_blank" rel="noopener" class="social-pill">LinkedIn</a>
+    </div>
+    <nav class="header-nav">
+      <a href="#quien">¿Quién soy?</a>
       <a href="#servicios">Servicios</a>
       <a href="#eventos">Eventos</a>
+      <a href="#constelaciones">Constelaciones</a>
+      <a href="#sesiones">Sesiones</a>
       <a href="#contacto">Contacto</a>
-      <a href="https://experiencias.andyvillarruel.com/api/vcf" download="Andy_Villarruel.vcf" class="nav-cta">Guardar contacto</a>
-    </div>
-    <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menú">☰</button>
-  </nav>
+    </nav>
+  </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-photo">
-        <img src="andy.jpg" alt="Andy Villarruel" />
+  <!-- QUIÉN ES ANDY -->
+  <section class="section" id="quien">
+    <div class="container-sm">
+      <p class="eyebrow">¿Quién es Andy Villarruel?</p>
+      <h2>La Consciencia es un músculo<br>que se entrena</h2>
+      <div class="photo-round">
+        <img src="andy-1.jpg" alt="Andy Villarruel" />
       </div>
-      <div class="hero-content">
-        <p class="label">Coach · Facilitadora · Sanadora</p>
-        <h1>Andy<br>Villarruel</h1>
-        <p class="hero-subtitle">Coach Business Consciousness</p>
-        <div class="divider"></div>
-        <p class="hero-bio">
-          Coach Ontológica Profesional · Facilitadora en Las Nuevas Constelaciones Cuánticas · Health Coach · Sanadora en Medicina Energética.
-        </p>
-        <div class="hero-ctas">
-          <a href="https://experiencias.andyvillarruel.com/api/vcf" download="Andy_Villarruel.vcf" class="btn-primary">↓ Guardar contacto</a>
-        </div>
-        <div class="hero-socials">
-          <a href="https://www.facebook.com/advillarruel" target="_blank" rel="noopener" class="social-pill">FB</a>
-          <a href="https://instagram.com/andycoachvital" target="_blank" rel="noopener" class="social-pill">IG</a>
-          <a href="https://www.tiktok.com/@andycoachvital" target="_blank" rel="noopener" class="social-pill">TikTok</a>
-          <a href="https://www.linkedin.com/in/andrea-villarruel-45159b17/" target="_blank" rel="noopener" class="social-pill">LinkedIn</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- QUIÉN SOY -->
-  <section class="section section-white" id="quien">
-    <div class="container">
-      <p class="label gold">Quién soy</p>
-      <h2>Un camino de transformación<br>desde adentro hacia afuera</h2>
-      <div class="divider centered"></div>
-      <p class="text-body">
-        Soy Andrea Daniela Villarruel, Coach Business Consciousness, Contadora y Coach Ontológica Profesional. Me dedico a acompañar a personas y equipos en su proceso de expansión de conciencia, utilizando herramientas transformadoras como las Constelaciones Cuánticas, la Medicina Energética y el Coaching Ontológico.
+      <p class="body-text">
+        Soy Andrea Daniela Villarruel, Coach Business Consciousness, Contadora y Coach Ontológica Profesional. Facilitadora en Las Nuevas Constelaciones Cuánticas, Health Coach y Sanadora en Medicina Energética, experta en técnicas innovadoras para el despliegue de la Consciencia.
       </p>
-      <p class="text-body">
-        Mi trabajo integra lo personal, lo profesional y lo espiritual. Cada persona lleva dentro de sí la sabiduría que necesita para transformar su vida — mi rol es crear el espacio para que esa sabiduría emerja.
+      <p class="body-text">
+        Mi trabajo integra lo personal, lo profesional y lo espiritual. Acompaño a personas y equipos en su proceso de expansión de conciencia para que puedan vivir desde su propósito más profundo.
       </p>
-      <div class="gallery">
-        <div class="gallery-item"><img src="andy-1.jpg" alt="Andy Villarruel" /></div>
-        <div class="gallery-item"><img src="andy-2.png" alt="Andy Villarruel" /></div>
-        <div class="gallery-item"><img src="andy-3.jpg" alt="Andy Villarruel" /></div>
-      </div>
+      <a href="https://wa.me/543816040414" target="_blank" rel="noopener" class="btn-wa">Escribirme ☀️</a>
     </div>
   </section>
 
   <!-- SERVICIOS -->
   <section class="section section-cream" id="servicios">
     <div class="container">
-      <p class="label gold">Servicios</p>
-      <h2>Caminos de transformación</h2>
-      <div class="services-grid">
-        <div class="service-card"><span class="service-icon">✦</span><h3>Constelaciones Cuánticas</h3><p>Las Nuevas Constelaciones Cuánticas — un método transformador para sanar patrones familiares y sistémicos.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Tameana</h3><p>Técnica de activación de la conciencia y sanación energética a través de geometrías sagradas.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Medicina Energética</h3><p>Sanación a través de campos energéticos para restaurar el equilibrio físico, emocional y espiritual.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Life Coaching</h3><p>Acompañamiento personalizado para clarificar tu propósito, superar bloqueos y crear la vida que elegís.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Body Processes</h3><p>Procesos corporales para liberar memorias, traumas y limitaciones almacenadas en el cuerpo.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Meditaciones</h3><p>Prácticas guiadas para expandir la conciencia, calmar la mente y conectar con tu sabiduría interior.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Business Coaching</h3><p>Coaching avanzado para profesionales y emprendedores: liderazgo consciente y visión estratégica.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Teen Coaching</h3><p>Acompañamiento especializado para adolescentes en su proceso de autoconocimiento e identidad.</p></div>
-        <div class="service-card"><span class="service-icon">✦</span><h3>Sesiones Individuales</h3><p>Espacios íntimos y personalizados para trabajar en profundidad tu proceso de transformación.</p></div>
-      </div>
-      <div class="text-center">
-        <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20me%20gustaría%20saber%20más%20sobre%20tus%20servicios" target="_blank" rel="noopener" class="btn-primary">Consultar por servicios</a>
+      <p class="eyebrow">Con-Tribu-Ir</p>
+      <h2>¿Cómo puedo acompañarte?</h2>
+      <div class="service-cats">
+        <div class="service-cat">
+          <div class="cat-icon">🌿</div>
+          <h3>Holístico</h3>
+          <p>Constelaciones Cuánticas · Tameana · Medicina Energética · Body Processes · Meditaciones</p>
+          <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20quiero%20saber%20más%20sobre%20servicios%20holísticos" target="_blank" rel="noopener" class="btn-cat">Inscripciones abiertas</a>
+        </div>
+        <div class="service-cat">
+          <div class="cat-icon">🧠</div>
+          <h3>Coaching ADVanced</h3>
+          <p>Business Coaching · Life Coaching · Teen Coaching · Sesiones individuales y grupales</p>
+          <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20quiero%20saber%20más%20sobre%20coaching" target="_blank" rel="noopener" class="btn-cat">Inscripciones abiertas</a>
+        </div>
+        <div class="service-cat">
+          <div class="cat-icon">📚</div>
+          <h3>Formaciones</h3>
+          <p>Programas de formación y entrenamiento en conciencia, liderazgo y herramientas de transformación.</p>
+          <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20quiero%20saber%20más%20sobre%20formaciones" target="_blank" rel="noopener" class="btn-cat">Inscripciones abiertas</a>
+        </div>
+        <div class="service-cat">
+          <div class="cat-icon">⚡</div>
+          <h3>Intensivos</h3>
+          <p>Retiros y jornadas inmersivas de alto impacto para transformaciones profundas en poco tiempo.</p>
+          <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20quiero%20saber%20más%20sobre%20intensivos" target="_blank" rel="noopener" class="btn-cat">Inscripciones abiertas</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- EVENTOS -->
+  <!-- EVENTO: ORIGEN -->
   <section class="section section-dark" id="eventos">
-    <div class="container text-center">
-      <p class="label rose">Próximo evento</p>
-      <h2 class="h2-light">ORIGEN Experience</h2>
-      <p class="event-date">Las Yungas · 2 y 3 de Mayo 2026</p>
-      <div class="divider centered light-divider"></div>
-      <p class="text-body light-text">
-        Un retiro de dos días en el Hostel Las Yungas, San Javier, Tucumán. Un viaje hacia vos: soltar, reconectarte y volver más liviana. Con la co-facilitación de Carolina Bani.
+    <div class="container-sm text-center">
+      <p class="eyebrow light">Próximo evento</p>
+      <h2 class="light">ORIGEN Experience · Las Yungas</h2>
+      <p class="event-date-tag">2 y 3 de Mayo 2026 · San Javier, Tucumán</p>
+      <div class="photo-round large">
+        <img src="andy-2.png" alt="ORIGEN Experience Las Yungas" />
+      </div>
+      <p class="body-text light">
+        Dos días de experiencia inmersiva en el Hostel Las Yungas. Un viaje hacia vos: soltar, reconectarte y volver más liviana. Con la co-facilitación de Carolina Bani.
       </p>
-      <a href="https://experiencias.andyvillarruel.com/origen-yungas" class="btn-light">Ver el retiro → Quiero sumarme</a>
+      <div class="para-vos">
+        <p class="para-vos-title">Este espacio es para vos si...</p>
+        <ul>
+          <li>Sentís el llamado de hacer una pausa real para vos</li>
+          <li>Querés soltar lo que ya no tiene que seguir</li>
+          <li>Elegiste dejar de repetir historias que no te pertenecen</li>
+          <li>Necesitás limpiarte, energizarte y recalibrar tu dirección</li>
+          <li>Querés vivir desde tu propósito y ser parte de una comunidad consciente</li>
+        </ul>
+      </div>
+      <a href="https://experiencias.andyvillarruel.com/origen-yungas" class="btn-light">Quiero estar presente ☀️</a>
+    </div>
+  </section>
+
+  <!-- CONSTELACIONES -->
+  <section class="section" id="constelaciones">
+    <div class="container-sm text-center">
+      <p class="eyebrow">Servicio destacado</p>
+      <h2>Las Nuevas Constelaciones Cuánticas</h2>
+      <div class="photo-round">
+        <img src="andy-3.jpg" alt="Constelaciones Cuánticas" />
+      </div>
+      <p class="body-text">
+        Un método transformador para sanar patrones familiares y sistémicos a través de la conciencia cuántica. Trabaja sobre los vínculos invisibles que condicionan tus decisiones, relaciones y bienestar.
+      </p>
+      <p class="body-text">
+        Las constelaciones te permiten ver desde afuera lo que desde adentro no podías nombrar — y desde ahí, elegir diferente.
+      </p>
+      <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20quiero%20saber%20más%20sobre%20constelaciones" target="_blank" rel="noopener" class="btn-wa">Quiero sumarme ☀️</a>
+    </div>
+  </section>
+
+  <!-- SESIONES INDIVIDUALES -->
+  <section class="section section-cream" id="sesiones">
+    <div class="container-sm text-center">
+      <p class="eyebrow">Acompañamiento personalizado</p>
+      <h2>Sesiones Individuales</h2>
+      <p class="body-text">
+        Espacios íntimos y personalizados para trabajar en profundidad tu proceso de transformación. Cada sesión se adapta a lo que necesitás en este momento de tu vida.
+      </p>
+      <p class="quote-block">
+        "Cada persona lleva dentro de sí la sabiduría que necesita para transformar su vida."
+        <span>— Andy</span>
+      </p>
+      <a href="https://wa.me/543816040414?text=Hola%20Andy%2C%20quiero%20una%20sesión%20individual" target="_blank" rel="noopener" class="btn-wa">Reservar sesión ☀️</a>
     </div>
   </section>
 
   <!-- CONTACTO -->
-  <section class="section section-white" id="contacto">
-    <div class="container text-center">
-      <p class="label gold">Contacto</p>
+  <section class="section" id="contacto">
+    <div class="container-sm text-center">
+      <p class="eyebrow">Contacto</p>
       <h2>Hablemos</h2>
-      <p class="text-body">Si resonaste con algo de lo que leíste, me encantaría acompañarte.</p>
-      <div class="contact-btns">
-        <a href="https://wa.me/543816040414" target="_blank" rel="noopener" class="btn-primary">WhatsApp +54 9 381 604 0414</a>
-        <a href="mailto:hola@andyvillarruel.com" class="btn-secondary">hola@andyvillarruel.com</a>
-        <a href="https://experiencias.andyvillarruel.com/api/vcf" download="Andy_Villarruel.vcf" class="btn-gold">↓ Guardar contacto en mi teléfono</a>
+      <p class="body-text">Si resonaste con algo de lo que leíste, me encantaría acompañarte.</p>
+      <div class="contact-stack">
+        <a href="https://wa.me/543816040414" target="_blank" rel="noopener" class="btn-wa">WhatsApp +54 9 381 604 0414</a>
+        <a href="mailto:hola@andyvillarruel.com" class="btn-outline-dark">hola@andyvillarruel.com</a>
+        <a href="https://experiencias.andyvillarruel.com/api/vcf" download="Andy_Villarruel.vcf" class="btn-outline-dark">↓ Guardar contacto en mi teléfono</a>
       </div>
-      <div class="social-links">
+      <div class="social-row">
         <a href="https://instagram.com/andycoachvital" target="_blank" rel="noopener">@andycoachvital</a>
         <a href="https://www.linkedin.com/in/andrea-villarruel-45159b17/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
+  <footer class="footer-c">
     <p>© 2026 Andy Villarruel · Coach Business Consciousness · Tucumán, Argentina</p>
   </footer>
-
-  <script>
-    function toggleMenu() {
-      document.querySelector('.nav-links').classList.toggle('open');
-    }
-    document.querySelectorAll('.nav-links a').forEach(function(a) {
-      a.addEventListener('click', function() {
-        document.querySelector('.nav-links').classList.remove('open');
-      });
-    });
-  </script>
 
 
   <!-- WhatsApp flotante -->
